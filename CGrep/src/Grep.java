@@ -1,5 +1,4 @@
 import java.util.concurrent.Callable;
-import java.util.concurrent.Future;
 
 
 
@@ -7,7 +6,7 @@ public class Grep implements Callable<Found>{
 
 
 
-	public Grep(String string, String string2) {
+	public Grep(String FileName, String Pattern) {
 		// TODO Auto-generated constructor stub
 	}
 

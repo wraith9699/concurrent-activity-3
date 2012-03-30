@@ -12,11 +12,10 @@ public class CGrep {
 	
 	static ArrayList<Future<Found>> futureList = new ArrayList<Future<Found>>();
 	static ExecutorService executor;
+	final static int numThreads = 3;
 	
 	public static void main(String[] args) {
-		executor = Executors.newFixedThreadPool(3);
-		
-		// TODO Auto-generated method stub
+		executor = Executors.newFixedThreadPool(numThreads);
 		
 		
 		for(int i = 1; i < args.length-1; i++){
