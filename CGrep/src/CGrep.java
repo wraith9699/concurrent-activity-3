@@ -9,6 +9,7 @@ public class CGrep {
 	 */
 	
 	ArrayList<Future<Found>> futureList = new ArrayList<Future<Found>>();
+	ExecutorService executor;
 	
 	public static void main(String[] args) {
 		
