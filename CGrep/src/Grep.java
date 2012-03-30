@@ -2,7 +2,8 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 
 
-public class Grep implements Callable{
+
+public class Grep implements Callable<Found>{
 
 
 
@@ -11,7 +12,7 @@ public class Grep implements Callable{
 	}
 
 	@Override
-	public Future call() throws Exception {
+	public Found call() throws Exception {
 		// TODO Auto-generated method stub
 		return null;
 	}
