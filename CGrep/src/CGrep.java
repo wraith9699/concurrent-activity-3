@@ -25,6 +25,10 @@ public class CGrep {
 			
 		}
 		
+		for(int i = 0; i < futureList.size() ;i++){
+			System.out.println(futureList.get(i).toString());
+		}
+		
 		
 	}
 
